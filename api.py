@@ -26,8 +26,7 @@ app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
 def index():
-    return get_cookie_token()
-    # return 'This is scrapping url'
+    return 'This is scrapping url'
 
 
 @app.route('/get_data', methods=['GET'])
